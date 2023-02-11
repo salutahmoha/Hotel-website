@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["RH7wJe",(e,r)=>{"use strict";var t=({pageLayoutOverride:e})=>{switch(e){case"b2b-narrow":return"fzrLC";case"b2b-wide":return"WpPYM";default:return}};return[()=>{e({pageLayoutOverride:t,themeClassNames:{LIGHT:void 0,DARK:"fjMYf",AUTO:"GHLkI"}})},[]]},[]]);

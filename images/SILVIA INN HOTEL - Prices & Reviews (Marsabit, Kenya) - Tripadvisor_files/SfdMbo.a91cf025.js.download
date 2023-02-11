@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["SfdMbo",(t,e)=>{"use strict";var r=()=>{if("undefined"!=typeof navigator){var t=navigator.userAgent.toLowerCase(),e=/safari/.test(t),r=/iphone|ipod|ipad/.test(t)&&!navigator.standalone&&!e,a=/.*wv.*version\/4\.0.*/.test(t);return r||a}return!1};return[()=>{t("default",r)},[]]},[]]);

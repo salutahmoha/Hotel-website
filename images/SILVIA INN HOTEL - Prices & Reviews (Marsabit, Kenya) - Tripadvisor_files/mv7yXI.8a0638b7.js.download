@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["mv7yXI",(e,t)=>{"use strict";var s,r,i=()=>s.useContext(r);return[()=>{e({Login:r=s.createContext((()=>Promise.resolve(null))),default:i})},[e=>s=e]]},["cDcdfi"]]);

@@ -1,0 +1,61 @@
+@supports (font-variation-settings: normal) {
+  @font-face {
+  font-family: 'Trip Sans VF';
+  font-weight: normal;
+  font-display: swap;
+  src: url('/css2/webfonts/TripSans/TripSans-VF.woff2?v1.002') format('woff2-variations');
+  font-variation-settings: 'wght' 400;
+  }
+  @font-face {
+  font-family: 'Trip Sans VF';
+  font-weight: bold;
+  font-display: swap;
+  src: url('/css2/webfonts/TripSans/TripSans-VF.woff2?v1.002') format('woff2-variations');
+  font-variation-settings: 'wght' 700;
+  }
+  @font-face {
+  font-family: 'Trip Sans VF';
+  font-weight: 800;
+  font-display: swap;
+  src: url('/css2/webfonts/TripSans/TripSans-VF.woff2?v1.002') format('woff2-variations');
+  font-variation-settings: 'wght' 800;
+  }
+  @font-face {
+  font-family: 'Trip Sans VF';
+  font-weight: 900;
+  font-display: swap;
+  src: url('/css2/webfonts/TripSans/TripSans-VF.woff2?v1.002') format('woff2-variations');
+  font-variation-settings: 'wght' 900;
+  }
+}
+
+@font-face {
+  font-family: 'Trip Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('TripSans-Regular.woff2?v1.002') format('woff2'),
+    url('TripSans-Regular.woff?v1.002') format('woff');
+ }
+ 
+@font-face {
+  font-family: 'Trip Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url('TripSans-Medium.woff2?v1.002') format('woff2'),
+    url('TripSans-Medium.woff?v1.002') format('woff');
+}
+
+@font-face {
+  font-family: 'Trip Sans Mono';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('TripSansMono-Regular.woff2?v1.002') format('woff2'),
+    url('TripSansMono-Regular.woff?v1.002') format('woff');
+}
+
+html body {
+  font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif !important;
+}
