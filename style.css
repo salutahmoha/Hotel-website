@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 25px;
+}
+.navbar-nav{
+    margin-left: 700px;
+    font-weight: 600;
+}
+span{
+    color: #ff0180;
+}
+.home{
+    padding-top: 170px;
+    text-align: center;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    height: 570px;
+}
+h1{
+    color: white;
+    font-weight: 500;
+}
+section h2{
+    text-align: center;
+}
+
+section p{
+    color: black;
+    text-align: center;
+}
+.home p{
+    color: #f8f3f3;
+}
+.btn{
+    background: #ff0180;
+    color: white;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.about{
+    padding-top: 120px;
+}
+.menu{
+    padding-top: 120px;
+}
+
+.menu_div{
+    margin-top: 20px;
+    width: 220px;
+    height: 250px;
+    background: white;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.menu-img{
+    width: 220px;
+    height: 230px;
+}
+.menu .row{
+    margin-left: 80px;
+}
+.experts{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.experts .row{
+    padding-top: 30px;
+}
+.testimonials{
+    background-image: url(images/bg2.jpg);
+    background-position: center;
+    text-align: center;
+    height: 500px;
+}
+.testimonials  p{
+    color: white;
+}
+.testimonials .row p{
+    color: black;
+}
+.testimonials h2{
+    color: white;
+}
+.testimonial_div{
+    width: 250px;
+    height: 300px;
+    background: white;
+}
+
+.testimonial_img img{
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.testimonials .row{
+    margin-left: 50px;
+}
+.contact h2{
+   padding-top: 70px;
+}
+.contact p{
+    text-align: center;
+}
+.contactForm{
+    padding: 75px 50px;
+    background: white;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-top: 20px;
+}
+.contactForm h4{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactForm .inputBox input[type ="submit"]{
+    font: 20px;
+    color: white;
+    background: #ff0180;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    max-width: 100px;
+    transform: 0.5s;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.copyright p{
+    padding-top: 20px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+/* Media queries*/
+
+/* Center the navbar links */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        float: none;
+        margin-left: 40px;
+    }
+    .menu .row{
+        margin-left: 5px;
+    }
+    section p{
+        text-align: center;
+    }
+    .testimonial_div p{
+        color: black;
+    }
+    .testimonials h2{
+        color: white;
+    }
+    .testimonial_div p{
+        font-size: 12px;
+    }
+    .about, .menu, .experts, .testimonials, .contact h2{
+        padding-top: 50px;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .menu .row{
+        margin-left: 90px;
+    }
+    .menu_div{
+        margin-top: 20px;
+        width: 270px;
+        height: 300px;
+        background: white;
+        box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    .menu-img{
+        width: 270px;
+        height: 280px;
+    }
+    .experts .row img{
+        width: 330px;
+        height: 400px;
+    }
+    .experts .row{
+        margin-left: 60px;
+    }
+    .testimonials{
+        height: 900px;
+    }
+    .testimonial_div{
+        width: 200px;
+        height: 250px;
+    }
+    .row .testimonial_div{
+        margin-bottom: 10px;
+        margin-left: 90px;
+    }
+    .about, .menu, .experts, .testimonials, .contact h2{
+        padding-top: 30px;
+    }
+}
